@@ -14,7 +14,7 @@ const config: HardhatUserConfig = {
       url: process.env.SEPOLIA_RPC_URL,
       chainId: 11155111,
       accounts: [process.env.DEPLOYER || ""]
-    }
+    },
   },
 
   etherscan: {

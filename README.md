@@ -11,3 +11,9 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.ts
 ```
+
+
+
+1- deposer de l'eth
+2 depot minimun de 50$ si depose 0.001eth> prix en eth, si depotEnUSD  prixUSD> revert le depot
+3 ajouter retrait des eth deposé
